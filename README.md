@@ -11,7 +11,7 @@ pip install playwright
 ```
 
 # Install Google Chrome
-# Make sure you have Google Chrome installed as this tool relies on it for web automation.
+Make sure you have Google Chrome installed as this tool relies on it for web automation.
 
 # Start Google Chrome with remote debugging:
 # On Linux:
@@ -23,7 +23,7 @@ google-chrome --remote-debugging-port=8080
 chrome.exe --remote-debugging-port=8080
 ```
 # Use the script to download a YouTube playlist:
-# Example usage:
+Example usage:
 usage: Youtube Playlist Downloader [-h] [-u URL] [-r]
 
 Downloading YouTube playlist
