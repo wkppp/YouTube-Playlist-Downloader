@@ -5,20 +5,23 @@ A tool to download YouTube playlists as MP3 files. This is useful if you have a 
 
 ## Installation and Usage
 
+## Install Playwright
 ```bash
-# Install Playwright
 pip install playwright
+```
 
 # Install Google Chrome
 # Make sure you have Google Chrome installed as this tool relies on it for web automation.
 
 # Start Google Chrome with remote debugging:
 # On Linux:
+```bash
 google-chrome --remote-debugging-port=8080
-
+```
 # On Windows:
+```bash
 chrome.exe --remote-debugging-port=8080
-
+```
 # Use the script to download a YouTube playlist:
 # Example usage:
 usage: Youtube Playlist Downloader [-h] [-u URL] [-r]
